@@ -1,0 +1,154 @@
+Last login: Mon Jan 23 15:34:37 on console
+nancys-mbp:~ NancyItaliya$ 
+nancys-mbp:~ NancyItaliya$ open safari
+The file /Users/NancyItaliya/safari does not exist.
+nancys-mbp:~ NancyItaliya$ cd
+nancys-mbp:~ NancyItaliya$ documents
+-bash: documents: command not found
+nancys-mbp:~ NancyItaliya$ cd
+nancys-mbp:~ NancyItaliya$ ls
+Applications	Documents	Dropbox		Movies		Pictures
+Desktop		Downloads	Library		Music		Public
+nancys-mbp:~ NancyItaliya$ cd Documents
+nancys-mbp:Documents NancyItaliya$ ls
+nancys-mbp:Documents NancyItaliya$ cd
+nancys-mbp:~ NancyItaliya$ Documents/
+-bash: Documents/: is a directory
+nancys-mbp:~ NancyItaliya$ Desktop/UNI
+-bash: Desktop/UNI: is a directory
+nancys-mbp:~ NancyItaliya$ ls
+Applications	Documents	Dropbox		Movies		Pictures
+Desktop		Downloads	Library		Music		Public
+nancys-mbp:~ NancyItaliya$ Desktop/
+-bash: Desktop/: is a directory
+nancys-mbp:~ NancyItaliya$ ls
+Applications	Documents	Dropbox		Movies		Pictures
+Desktop		Downloads	Library		Music		Public
+nancys-mbp:~ NancyItaliya$ cd Desktop/
+nancys-mbp:Desktop NancyItaliya$ ls
+RUNNING.mp4		Videos			~$smetology.docx
+UNI			~$ncy Italiya.docx
+nancys-mbp:Desktop NancyItaliya$ RUNNING.mp4
+-bash: RUNNING.mp4: command not found
+nancys-mbp:Desktop NancyItaliya$ cd RUNNING.mp4
+-bash: cd: RUNNING.mp4: Not a directory
+nancys-mbp:Desktop NancyItaliya$ 
+nancys-mbp:Desktop NancyItaliya$ cd
+nancys-mbp:~ NancyItaliya$ cd
+nancys-mbp:~ NancyItaliya$ cd
+nancys-mbp:~ NancyItaliya$ /usr/local/bin/node
+> 2+2
+4
+> a=20
+20
+> cd
+ReferenceError: cd is not defined
+    at repl:1:1
+    at sigintHandlersWrap (vm.js:22:35)
+    at sigintHandlersWrap (vm.js:96:12)
+    at ContextifyScript.Script.runInThisContext (vm.js:21:12)
+    at REPLServer.defaultEval (repl.js:346:29)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:545:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+> 
+(To exit, press ^C again or type .exit)
+> 
+nancys-mbp:~ NancyItaliya$ cd
+nancys-mbp:~ NancyItaliya$ cd Documents/
+nancys-mbp:Documents NancyItaliya$ mkdir advFinance
+nancys-mbp:Documents NancyItaliya$ ls
+advFinance
+nancys-mbp:Documents NancyItaliya$ cd advFinance/
+nancys-mbp:advFinance NancyItaliya$ git init
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+nancys-mbp:advFinance NancyItaliya$ touch
+usage:
+touch [-A [-][[hh]mm]SS] [-acfhm] [-r file] [-t [[CC]YY]MMDDhhmm[.SS]] file ...
+nancys-mbp:advFinance NancyItaliya$ touch poem.js
+nancys-mbp:advFinance NancyItaliya$ ls
+poem.js
+nancys-mbp:advFinance NancyItaliya$ subl .
+-bash: subl: command not found
+nancys-mbp:advFinance NancyItaliya$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+nancys-mbp:advFinance NancyItaliya$ git init
+Initialized empty Git repository in /Users/NancyItaliya/Documents/advFinance/.git/
+nancys-mbp:advFinance NancyItaliya$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	poem.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+nancys-mbp:advFinance NancyItaliya$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+	add
+nancys-mbp:advFinance NancyItaliya$ git add .
+nancys-mbp:advFinance NancyItaliya$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   poem.js
+
+nancys-mbp:advFinance NancyItaliya$ git commit -m "This is my firts command"
+[master (root-commit) 4f2fc88] This is my firts command
+ 1 file changed, 1 insertion(+)
+ create mode 100644 poem.js
+nancys-mbp:advFinance NancyItaliya$ git remote add origin https://github.com/nancyitaliya/adv-finance.git
+nancys-mbp:advFinance NancyItaliya$ git push -f origin master
+Username for 'https://github.com': nancyitaliya
+Password for 'https://nancyitaliya@github.com': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 249 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/nancyitaliya/adv-finance.git
+ * [new branch]      master -> master
+nancys-mbp:advFinance NancyItaliya$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   poem.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+nancys-mbp:advFinance NancyItaliya$ git add .
+nancys-mbp:advFinance NancyItaliya$ git commit -m "This is my second commit!"
+-bash: !": event not found
+nancys-mbp:advFinance NancyItaliya$ git commit -m "This is my second commit!"
+-bash: !": event not found
+nancys-mbp:advFinance NancyItaliya$ git commit -m "This is my second commit"
+[master a404ef3] This is my second commit
+ 1 file changed, 1 insertion(+)
+nancys-mbp:advFinance NancyItaliya$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+nancys-mbp:advFinance NancyItaliya$ git push --set-upstream origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 290 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/nancyitaliya/adv-finance.git
+   4f2fc88..a404ef3  master -> master
+Branch master set up to track remote branch master from origin.
+nancys-mbp:advFinance NancyItaliya$ node poem.js
+Hello World
+Goodbye World
+nancys-mbp:advFinance NancyItaliya$ 
