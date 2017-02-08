@@ -1,0 +1,36 @@
+Last login: Wed Feb  1 13:52:15 on ttys000
+nancys-mbp:~ NancyItaliya$ cd Documents/
+nancys-mbp:Documents NancyItaliya$ cd advFinance/
+nancys-mbp:advFinance NancyItaliya$ node datatypes.js 
+DATA TYPES
+
+TEXT
+Hello Everybody!
+
+NUMBER
+15
+
+ARRAY
+[ 'I Like', 2, 'Code' ]
+
+BOOLEAN
+You are all set!
+
+UNDEFINED
+false
+
+nancys-mbp:advFinance NancyItaliya$ git add .
+nancys-mbp:advFinance NancyItaliya$ git commit -m "Data Types"
+[master 205c6c8] Data Types
+ 2 files changed, 65 insertions(+)
+ create mode 100644 datatypes.js
+ create mode 100644 practise.js
+nancys-mbp:advFinance NancyItaliya$ git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 737 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/nancyitaliya/adv-finance.git
+   f39388a..205c6c8  master -> master
+nancys-mbp:advFinance NancyItaliya$ 
